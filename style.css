@@ -5,13 +5,6 @@
 .align-text{
   text-align: center;
 }
-.namestyle{
-  font-family: 'Abril Fatface', cursive;
-}
-.description1{
-  font-family: 'Bungee', cursive;
-  color:#8C43FF;
-}
 .item-align{
   padding:10px 15px;
   font-size: 18px;
@@ -25,16 +18,6 @@
   padding-top: 50px;
   padding-bottom: 40px;
 }
-.btn-outline-primary {
-    border-color: #8C43FF;
-    color:#8C43FF;
-}
-.btn-outline-primary:hover {
-    color: #FFFF;
-    background-color: #8C43FF;
-    border-color: #8C43FF;
-}
-
 .dkcolor{
   background-color: #EF9A9A;
 }
@@ -151,7 +134,7 @@
     float: none;
 }
 .fixed-background {
-    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/36/35/technology-futuristic-digital-background-vector-18933635.jpg");
+    background-image: url("https://blog.tefal.co.uk/wp-content/uploads/2016/06/Lifestyle-washing.jpg");
     min-height: 300px;
     background-attachment: fixed;
     background-position: center;
@@ -161,9 +144,6 @@
 }
 .img-responsive {
     margin: 0 auto;
-}
-.bg-primary-color{
-  background-color: #333333;
 }
 h4:hover{
   color:#5EBB60;
@@ -433,6 +413,20 @@ body {
 	position: absolute;
 	width: 180px;
 }
-.image-responsive {
-    margin: 0 auto;
+
+/*new script starts here*/
+
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center
 }
+li {
+    display: inline;
+    list-style: none;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+ 
