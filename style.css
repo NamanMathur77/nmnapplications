@@ -429,4 +429,11 @@ li {
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
  }
- 
+ .bg{
+    background: url('https://images.pexels.com/photos/1509428/pexels-photo-1509428.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') no-repeat center;
+    min-width: 100%;
+    min-height:100%;
+    width:auto;
+    background-size: cover;
+
+}
