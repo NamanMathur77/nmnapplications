@@ -435,8 +435,7 @@ li {
  .bg{
     background: url('https://images.pexels.com/photos/234527/pexels-photo-234527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
     min-width: 100%;
-    min-height:500px;
-    width:auto;
+    min-height:100%;
     background-size: cover;
     background-attachment: fixed;
     -webkit-filter: grayscale(60%); /* Safari 6.0 - 9.0 */
