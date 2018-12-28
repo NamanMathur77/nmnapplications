@@ -163,8 +163,7 @@ h4:hover{
 .card-flip{
   transform-style: preserve-3d;
   transition: all 1.0s linear;
-  backface-visibility: hidden;
-
+  
 }
 .background{
   background-image: url("https://www.publicdomainpictures.net/pictures/120000/nahled/light-green-texture-background.jpg");
